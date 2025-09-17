@@ -9,6 +9,7 @@ const port = 3000;
 const budget = require("./budget-data.json");
 
 app.use(cors());
+// Before deployment to production environment, implement proper security measures (Whitelist specific domains, etc.)
 
 // const budget = {
 //   myBudget: [
